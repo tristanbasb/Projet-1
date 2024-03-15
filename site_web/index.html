@@ -3,12 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bons Plans</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Votre site web</title>
+  <link rel="stylesheet" href="style.css">  
 </head>
 <body>
-  <h1>Bienvenue sur notre site de bons plans!</h1>
-  <p>Découvrez des offres exceptionnelles sur vos produits favoris.</p>
-  <a href="good-deals.html" class="btn">Voir les bons plans</a>
+  <header>
+    <h1>Mon site web</h1>
+  </header>
+  <form action="/login" method="post">
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <button type="submit">Se connecter</button>
+  </form>
+
+  <footer>
+    <p>&copy; Tristan</p>
+  </footer>
 </body>
 </html>
